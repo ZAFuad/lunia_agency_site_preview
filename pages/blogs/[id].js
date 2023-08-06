@@ -12,9 +12,10 @@ const SinglePost = () => {
 
   return (
     <>
-      <Head>
-        <title>{post.title}</title>
+    <Head>
+        <title>{!!post ? post.title : "Sinngle Blog"}</title>
       </Head>
+      {!!post ? <>
       <section className='post-details bg-top'>
         <div className='container'>
           <div className='heading-title'>
@@ -40,7 +41,8 @@ const SinglePost = () => {
             </div>
           </div> */}
         </div>
-      </section>
+      </section> 
+      </> : <></>}
     </>
   )
 }
