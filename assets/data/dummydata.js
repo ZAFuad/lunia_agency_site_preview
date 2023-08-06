@@ -153,8 +153,9 @@ export const blogdata = [
     id: 1,
     title: "How to Merge Instagram Accounts",
     cover: "../images/blog1.png",
-    catgeory: "INDUSTRY",
+    catgeory: "TIPS & TRICKS",
     date: "JANUARY 12, 2023",
+    desc:`Merging two Instagram accounts can be a useful way to streamline your social media management and better connect with your followers. By following the steps outlined in this guide and utilizing the tips and best practices for managing a merged account, you can successfully merge your accounts and take your Instagram presence to the next level.<br/> 1.Open the Instagram app on your phone and log in to the account that you want to keep. <br/>2.Tap on the three lines in the top right corner of the screen to access your profile and settings.<br/>3.Scroll down and tap on “Settings.”<br/>4.Tap on “Account.” <br/>5.Scroll down and tap on “Merge accounts.” <br/>6.Follow the prompts to log in to the second account that you want to merge.`
   },
   {
     id: 2,
@@ -162,6 +163,7 @@ export const blogdata = [
     cover: "../images/blog2.png",
     catgeory: "TIPS & TRICKS",
     date: "OCTOBER 20, 2023",
+    desc:``
   },
   {
     id: 3,
@@ -169,13 +171,15 @@ export const blogdata = [
     cover: "../images/b3.jpg",
     catgeory: "TIPS & TRICKS",
     date: "OCTOBER 9, 2023",
+    desc:``
   },
   {
     id: 4,
     title: "Advanced SEO Tactics for Become an SEO Expert",
     cover: "../images/blog4.png",
-    catgeory: "EVENTS",
+    catgeory: "TIPS & TRICKS",
     date: "OCTOBER 8, 2023",
+    desc:`Conducting an SEO audit of your website is one of the most important advanced SEO techniques you can apply. Doing so will provide you with a wealth of useful information about how your site is performing. First, quickly take stock of all the pieces of your SEO puzzle. SEMRush provides a handy SEO checklist you can use. Figure out what pieces you have in place, and what steps you still need to take to get your site on the right track. For example, is your off-page SEO on point? What about your on-page optimization? From there, it’s time to start auditing. An SEO audit will give you a big-picture view of how well you’re optimizing your website. Among other things, your audit will help you uncover issues relating to how Google may or may not be indexing your site. We’ve written a full guide for conducting a site audit to help. Don’t neglect third-party website auditing tools, as well. There are some great free SEO tools you can use in addition to any SEO auditing you do on your own, and there are some great SEO plugins for WordPress that can help fix any problems that these auditing tools find.`
   },
 ]
 export const teamdata = [
