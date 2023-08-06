@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { TitleLogo } from "./Title"
 import { BsFacebook } from "react-icons/bs"
-import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai"
 import Logo from '../../assets/images/Logo.svg' 
 const Footer = () => {
   return (
@@ -24,22 +24,22 @@ const Footer = () => {
             <ul>
               <h3>COMPANY</h3>
               <li>
-                <Link href='/'>About agency</Link>
+                <Link href='/agency'>About agency</Link>
               </li>
               <li>
-                <Link href='/'>Our team</Link>
+                <Link href='/team'>Our team</Link>
               </li>
               <li>
-                <Link href='/'>Showcase</Link>
+                <Link href='/showcase'>Showcase</Link>
               </li>
               <li>
-                <Link href='/'>Blog</Link>
+                <Link href='/blogs'>Blog</Link>
               </li>
               <li>
-                <Link href='/'>Demo design system</Link>
+                <Link href='/services'>Services</Link>
               </li>
               <li>
-                <Link href='/'>Contact</Link>
+                <Link href='/contact'>Contact</Link>
               </li>
             </ul>
             <ul>
@@ -63,35 +63,27 @@ const Footer = () => {
             <ul>
               <h3>CONNECT</h3>
               <div className='connect'>
-                <li>
-                  <Link href='/'>
-                    <BsFacebook size={25} />
-                  </Link>
+              <li className='icon'>
+                  <BsFacebook size={25} />
                 </li>
-                <li>
-                  <Link href='/'>
-                    <AiFillBehanceCircle size={25} />
-                  </Link>
+                <li className='icon'>
+                <Link href={"https://x.com/LuniaAgency"}><AiFillTwitterCircle size={25} /></Link>
                 </li>
-                <li>
-                  <Link href='/'>
-                    <AiFillInstagram size={25} />
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/'>
-                    <AiFillLinkedin size={25} />
-                  </Link>
+                {/* <li className='icon'>
+                  <AiFillInstagram size={25} />
+                </li> */}
+                <li className='icon'>
+                  <Link href={"https://www.linkedin.com/company/lunia-agency"}> <AiFillLinkedin size={25} /></Link>
                 </li>
               </div>
             </ul>
           </div>
           <div className='legal connect py'>
             <div className='text'>
-              <span>© 2023 THE SEVEN. ALL RIGHTS RESERVED.</span>
+              <span>© 2023 THE LUNIA AFENCY. ALL RIGHTS RESERVED.</span>
             </div>
             <div className='connect'>
-              <span>GORKCODER COMPANY</span>
+              <span>ZAFUAD</span>
               <span> &nbsp; | &nbsp; </span>
               <span>TERMS & CONDITIONS</span>
             </div>

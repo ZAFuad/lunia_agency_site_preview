@@ -1,6 +1,7 @@
 import { Title, TitleSm } from "@/components/common/Title"
+import Link from "next/link"
 import React from "react"
-import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai"
 import { BiUserCircle } from "react-icons/bi"
 import { BsFacebook } from "react-icons/bs"
 import { FiHeadphones, FiHelpCircle } from "react-icons/fi"
@@ -31,27 +32,27 @@ const Contact = () => {
                 </div>
                 <div className='box'>
                   <FiHelpCircle size={30} className='icons' color="#0472C4"/>
-                  <h3>info@dream-theme.com</h3>
+                  <h3>info@lucia.agency.com</h3>
                   <span>Drop us a line anytime!</span>
                 </div>
-                <div className='box'>
+                {/* <div className='box'>
                   <BiUserCircle size={30} className='icons' color="#0472C4"/>
                   <h3>hr@dream-theme.com</h3>
                   <span>Career at Seven Creative</span>
-                </div>
+                </div> */}
               </div>
               <ul>
                 <li className='icon'>
                   <BsFacebook size={25} />
                 </li>
                 <li className='icon'>
-                  <AiFillBehanceCircle size={25} />
+                <Link href={"https://x.com/LuniaAgency"}><AiFillTwitterCircle size={25} /></Link>
                 </li>
-                <li className='icon'>
+                {/* <li className='icon'>
                   <AiFillInstagram size={25} />
-                </li>
+                </li> */}
                 <li className='icon'>
-                  <AiFillLinkedin size={25} />
+                  <Link href={"https://www.linkedin.com/company/lunia-agency"}> <AiFillLinkedin size={25} /></Link>
                 </li>
               </ul>
             </div>
